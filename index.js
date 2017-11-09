@@ -10,3 +10,6 @@ function destructivelyPrependDriver(array){
 function destructivelyRemoveLastDriver(array){
   drivers.pop(2);
 }
+function destructivelyRemoveFirstDriver(array){
+  drivers.shift()
+}
