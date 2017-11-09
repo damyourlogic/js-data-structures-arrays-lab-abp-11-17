@@ -14,5 +14,5 @@ function destructivelyRemoveFirstDriver(array){
   drivers.shift();
 }
 function appendDriver(array){
-  drivers2 = [...drivers, "Broom"];
+  drivers2 = [...array, "Broom"];
 }
