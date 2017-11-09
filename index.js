@@ -21,3 +21,6 @@ function prependDriver(array){
   const array1 = ['Arnold', ...drivers]
   return array1
 }
+function removeLastDriver(array){
+  return driver.slice(0, array.length -1);
+}
