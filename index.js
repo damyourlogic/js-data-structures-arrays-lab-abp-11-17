@@ -15,4 +15,5 @@ function destructivelyRemoveFirstDriver(array){
 }
 function appendDriver(array){
   array = [...array, "Broom"];
+  return array;
 }
