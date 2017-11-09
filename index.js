@@ -17,3 +17,7 @@ function appendDriver(array){
   const array2 = [...drivers, 'Broom'];
   return array2
 }
+function prependDriver(array){
+  const array1 = ['Broom', ...drivers]
+  return array1
+}
